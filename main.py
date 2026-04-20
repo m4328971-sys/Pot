@@ -1,3 +1,4 @@
+
 import asyncio
 from quotexapi.stable_api import Quotex
 import requests
@@ -96,4 +97,7 @@ async def main():
             except: await asyncio.sleep(10)
 
 if __name__ == "__main__":
+    asyncio.run(main())
+    asyncio.run(main())
+    asyncio.run(main())
     asyncio.run(main())
